@@ -56,10 +56,11 @@ Additionally, the vast majority of data points are drawn from 2014. Information 
 
 ### Recommendations
 
-More data on police-civilian interactions should be systematically tracked and released so that a better model can be created to inform funding and legislation efforts. This data should:
-1.	<b>Include a wider range of incidents:</b> The predictable determining factors of fatality likely occur before an officer begins shooting at a victim. Therefore the data must include incidents with a much wider variety of outcomes—including de-escalation—and not just those that ended in violence.
-2.	<b>Be up-to-date:</b> Many state-level actions have been taken recently, and multi-year old data is unlikely to reflect those changes. Data should be collected and made publicly available more promptly.
-3. <b>Add interaction effects:</b> With complex social determinants like race and gender, there are likely to be strong interactions effects between variables. It is difficult to account for all of these in a regression because each interaction  has to be specified in the equation to be tested. Once better data is availabe, a machine learning method such as a boosted regression tree would better handle the complex higher-order interactions likely in play.
+1.	<b>Better data:</b> More data on police-civilian interactions should be systematically tracked and released so that a better model can be created to inform funding and legislation efforts. This data should:
+    - <b>Include a wider range of incidents:</b> The predictable determining factors of fatality likely occur before an officer begins shooting at a victim. Therefore the data must include incidents with a much wider variety of outcomes—including de-escalation—and not just those that ended in violence.
+    - <b>Be up-to-date:</b> Many state-level actions have been taken recently, and multi-year old data is unlikely to reflect those changes. Data should be collected and made publicly available more promptly.
+
+2. <b>Add interaction effects:</b> With complex social determinants like race and gender, there are likely to be strong interactions effects between variables. It is difficult to account for all of these in a regression because each interaction  has to be specified in the equation to be tested. Once better data is availabe, a machine learning method such as a boosted regression tree would better handle the complex higher-order interactions likely in play.
 
 
 <br>
