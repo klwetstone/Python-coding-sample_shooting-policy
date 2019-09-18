@@ -7,7 +7,7 @@ UC Berkeley, DS200 Final Project, May 2019
 
 Over one thousand people in the United States were killed by police in 2016.<sup>1</sup> While it is difficult to obtain comprehensive, standardized data, estimates show that the rate of police killings in the US dwarfs that in other high-income countries.<sup>2</sup>
 
-<img src="country_shootings.png" width=500>
+<img src="country_shootings.png" width=600 align="middle">
 
 In addition to presenting a public health issue, police-related fatalities disproportionately affect communities of color and deepen racial inequality.<sup>3</sup> Generally, tactics to decrease police fatalities fall into two buckets:
 1.	<b>Police training</b>: Analysis by Campaign Zero found that police departments with limits on police use of force killed substantially fewer people.<sup>4</sup>
