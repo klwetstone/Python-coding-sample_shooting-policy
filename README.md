@@ -1,7 +1,7 @@
 # Assessing Measures to Decrease Fatalities from Police Shootings
-Katie Wetstone
-
-UC Berkeley, DS200 Final Project, May 2019
+Author: Katie Wetstone, Master of Development Practice candidate at the University of California, Berkeley
+Date: May 2019
+Final Project for Principles & Techniques of Data Science (COMPSCI C200A)
 
 ## Introduction
 
