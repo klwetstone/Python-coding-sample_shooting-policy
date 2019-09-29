@@ -33,7 +33,7 @@ The significance of each feature is assessed based on the bootstrapped distribut
 ### Logistic regression results
 The distribution of values for the coefficients of the variables tested (based on bootstrapping) is shown below.
 
-<img src="Bootstrapped_coefficient_values.png" width=700>
+<img src="images/Bootstrapped_coefficient_values.png" width=700>
 
 Of these, 9 are significant (ie. 0 is not within the 95% confidence interval). 
 According to the model, a civilian is less likely to be killed if they are unarmed (`unarmed`), if the violent crime rate in the state is higher (`log_crime`), and if the state mandates medical training for policer officers (`medic_train`).
@@ -47,7 +47,7 @@ While individual coefficients may be significant, the best model based on the da
 
 The very high false-alarm rate indicates that the model does not do a good job of identifying the relatively rare cases in the dataset in which someone is not killed. The high accuracy and recall are misleading as to the model's effectiveness because they reflect the class imbalance in the data more so than the model's performance. As shown below, the distribution of probabilities predicted does differ for those that were not killed v. those that were, but not by enough to provide meaningful predictions.
 
-<img src="ModelPredictions_ActualValue.png">
+<img src="images/ModelPredictions_ActualValue.png">
 
 ### Limitations
 
