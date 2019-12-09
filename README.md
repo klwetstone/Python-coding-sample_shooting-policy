@@ -30,6 +30,33 @@ I use a logistic regression to predict whether or not a victim was killed based 
 
 The significance of each feature is assessed based on the bootstrapped distribution of its coefficient. A feature is  considered significant if the 95% confidence interval does not include zero.
 
+### Project Outline
+The full project can be viewed in `DS200_FinalProject_StatePolicyPoliceShootings.ipynb`. It includes:
+<ol>
+<li>Importing and merging data from multiple sources</li>
+<li>Cleaning the data</li>
+<li>Exploratory data analysis</li>
+<li>Feature engineering
+    <ul>
+        <li>Generating new features using text analysis</li>
+        <li>One-hot-encoding categorical variables</li>
+    </ul></li>
+<li>Fitting and optimizing a logistic regression model
+    <ul>
+        <li>Feature selection using L1-regularization</li>
+        <li>5-fold cross validation with L2-regularization</li>
+        <li>Testing various feature sets to minimize error</li>
+    </ul></li>
+<li>Assessing final model performance
+    <ul>
+        <li>Computing precision, recall, false-alarm rate, and accuracy</li>
+        <li>Evaluating the significance of each coefficient using bootstrapping</li>
+        <li>Visualizing data and predictions</li>
+    </ul></li>
+<li>Summarizing conclusions and recommendations</li>
+</ol>
+    
+
 ## Conclusion
 
 ### Logistic regression results
